@@ -5,16 +5,16 @@ rssFullContent = true
 favicon = "/favicon.png"
 
 [footer]
-since = 2020
+since = 2025
 customText = ""
 
 [dateFormat]
-published = "Jan 02, 2006"
+published = "2 Jan 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
-emoji = "🍥"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+emoji = ""
+subtitle = "Transformer une passoire thermique des années 70 en un lieu de vie heureux et résilient."
 
 [sidebar.avatar]
 enabled = true
@@ -27,30 +27,30 @@ math = false
 readingTime = true
 
 [article.license]
-enabled = true
+enabled = false
 default = "Licensed under CC BY-NC-SA 4.0"
 
 ## Widgets
-[[widgets.homepage]]
-type = "search"
+#[[widgets.homepage]]
+#type = "search"
 
-[[widgets.homepage]]
-type = "archives"
+#[[widgets.homepage]]
+#type = "archives"
 
-[widgets.homepage.params]
-limit = 5
+#[widgets.homepage.params]
+#limit = 5
 
-[[widgets.homepage]]
-type = "categories"
+#[[widgets.homepage]]
+#type = "categories"
 
-[widgets.homepage.params]
-limit = 10
+#[widgets.homepage.params]
+#limit = 10
 
-[[widgets.homepage]]
-type = "tag-cloud"
+#[[widgets.homepage]]
+#type = "tag-cloud"
 
-[widgets.homepage.params]
-limit = 10
+#[widgets.homepage.params]
+#limit = 10
 
 [[widgets.page]]
 type = "toc"
@@ -65,7 +65,7 @@ local = false
 src = ""
 
 [colorScheme]
-toggle = true
+toggle = false
 default = "auto"
 
 [imageProcessing.cover]
@@ -76,7 +76,7 @@ enabled = true
 
 ## Comments
 [comments]
-enabled = true
+enabled = false
 provider = "disqus"
 
 [comments.disqusjs]
