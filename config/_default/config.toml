@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://www.cabane-en-beton.fr"
+baseurl = "https://manonlger.github.io/cabane-en-beton"
 languageCode = "fr-fr"
 title = "La Cabane en Béton"
 
